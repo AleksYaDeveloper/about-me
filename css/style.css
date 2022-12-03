@@ -1,21 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+*,
+* ::before,
+* ::after {
+  box-sizing: inherit;
+}
+
 .blue {
   color: #0844a4;
+  text-decoration: none;
 }
 body {
   color: #606060;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
 }
-h1 h2 {
-  text-align: center;
-}
+
 h1 {
   text-align: center;
 }
 h2 {
   text-align: center;
 }
-.background {
+
+.hero {
   background-image: url("img/back.jpg");
   background-size: cover;
+}
+.btn {
+  display: inline-block;
+  padding: 20px 40px;
+
+  background-color: #0844a4;
+  color: #fff;
+  border-radius: 7px;
+  border: 2px solid #606060;
+  font-size: 20px;
+}
+.site-nav {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+
+  font-size: 25px;
+}
+.site-nav .item {
+  margin-right: 100px;
+}
+.site-nav .item:last-child {
+  margin-right: 80px;
+}
+.site-nav .link:hover {
+  color: #606060;
+}
+:focus {
+  color: #000;
 }
