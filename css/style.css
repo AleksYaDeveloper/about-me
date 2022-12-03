@@ -1,3 +1,21 @@
 .blue {
   color: #0844a4;
 }
+body {
+  color: #606060;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+h1 h2 {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.background {
+  background-image: url("img/back.jpg");
+  background-size: cover;
+}
