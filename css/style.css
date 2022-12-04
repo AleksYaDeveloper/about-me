@@ -33,7 +33,7 @@ header {
   background-size: cover;
   height: 88vh;
   padding-top: 15%;
-  padding-left: 22%;
+  padding-left: 23%;
 }
 .border {
   display: inline-block;
@@ -57,9 +57,12 @@ header {
   display: flex;
   list-style: none;
   justify-content: flex-end;
-  gap: 100px;
-
+  gap: 75px;
   font-size: 25px;
+}
+.line {
+  border-right: 4px solid #606060;
+  padding-right: 4%;
 }
 
 .site-nav .item:last-child {
