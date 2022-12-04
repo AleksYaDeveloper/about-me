@@ -28,9 +28,20 @@ h2 {
 header {
   height: 100vh;
 }
+.top {
+  margin-right: 5%;
+  justify-content: flex-end;
+}
+.page {
+  height: 100vh;
+  width: 100vw;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 .hero {
   background-image: url("img/back.jpg");
   background-size: cover;
+  background-position: center;
   height: 88vh;
   padding-top: 15%;
   padding-left: 23%;
@@ -73,4 +84,19 @@ header {
 }
 :focus {
   color: #000;
+}
+.listaboute {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.aboute::before {
+  margin-left: 16px;
+  background-image: url();
+}
+.web {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
