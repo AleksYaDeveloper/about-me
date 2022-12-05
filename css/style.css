@@ -24,6 +24,7 @@ h1 {
 }
 h2 {
   text-align: center;
+  font-size: 35px;
 }
 header {
   height: 100vh;
@@ -32,12 +33,7 @@ header {
   margin-right: 5%;
   justify-content: flex-end;
 }
-.page {
-  height: 100vh;
-  width: 100vw;
-  margin-left: 5%;
-  margin-right: 5%;
-}
+
 .hero {
   background-image: url("img/back.jpg");
   background-size: cover;
@@ -85,18 +81,52 @@ header {
 :focus {
   color: #000;
 }
+.top {
+  margin-left: 90%;
+}
+.special {
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 49%;
+}
 .listaboute {
   display: flex;
   list-style: none;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 75px;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: 5%;
 }
-.aboute::before {
-  margin-left: 16px;
-  background-image: url();
+.font-size {
+  font-size: 20px;
+  text-align: justify;
 }
-.web {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  list-style: none;
+
+.pie-chart-border {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: #000 solid 1px;
+  background-image: conic-gradient(
+    hsl(3, 96%, 49%) 0deg 120deg,
+    #1302f9 0deg 240deg,
+    hsl(140, 96%, 47%) 0deg 310deg,
+    #ffe66d 0deg 360deg
+  );
+  margin-right: 20px;
+}
+
+.pie-chart-border:before {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: #000 solid 1px;
+  top: 25px;
+  left: 25px;
 }
