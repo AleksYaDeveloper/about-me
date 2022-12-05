@@ -88,7 +88,7 @@ header {
   display: inline-block;
   text-align: center;
   font-size: 30px;
-  margin-left: 49%;
+  margin-left: 43%;
 }
 .listaboute {
   display: flex;
@@ -112,9 +112,9 @@ header {
   border: #000 solid 1px;
   background-image: conic-gradient(
     hsl(3, 96%, 49%) 0deg 120deg,
-    #1302f9 0deg 240deg,
+    hsl(244, 98%, 49%) 0deg 240deg,
     hsl(140, 96%, 47%) 0deg 310deg,
-    #ffe66d 0deg 360deg
+    hsl(50, 100%, 71%) 0deg 360deg
   );
   margin-right: 20px;
 }
@@ -129,4 +129,39 @@ header {
   border: #000 solid 1px;
   top: 25px;
   left: 25px;
+}
+.container {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  gap: 5%;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.next {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  text-align: justify;
+  gap: 5%;
+  color: #000;
+  font-weight: bold;
+}
+.table {
+  border: #000 solid 2px;
+  padding: 1%;
+  border-radius: 25%;
+}
+.bl {
+  background-color: hsl(244, 98%, 49%);
+}
+.red {
+  background-color: hsl(0, 98%, 49%);
+}
+.yellow {
+  background-color: hsl(50, 100%, 71%);
+}
+.green {
+  background-color: hsl(122, 96%, 48%);
 }
