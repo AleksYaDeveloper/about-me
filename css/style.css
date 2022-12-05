@@ -29,6 +29,7 @@ h2 {
 header {
   height: 100vh;
 }
+
 .top {
   margin-right: 5%;
   justify-content: flex-end;
@@ -164,4 +165,22 @@ header {
 }
 .green {
   background-color: hsl(122, 96%, 48%);
+}
+input,
+button {
+  border: #0844a4 solid 3px;
+}
+.textline {
+  display: block;
+  width: 50%;
+  height: 60px;
+  padding: 2px 2px;
+  border: 3px solid;
+  border-color: #0844a4;
+  background-color: #f8f8f8;
+  resize: none;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
 }
