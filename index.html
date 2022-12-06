@@ -11,6 +11,7 @@
   </head>
   <body>
     <header>
+      <a name="point1"></a>
           <div class="hero">
             <div class="border">
       <h1 class="blue">Let`s get acquainted</h1>
@@ -19,7 +20,7 @@
    </div>
    </div>
         <ul class="site-nav list">
-          <li class="item line"><a href="" class="blue"> About</a></li>
+          <li class="item line"><a href="#about" class="blue"> About</a></li>
           <li class="item line"><a href="" class="blue">Experience </a></li>
           <li class="item line"><a href="" class="blue">Interest's </a></li>
           <li class="item"><a href="" class="blue">Get in touch</a></li>
@@ -28,28 +29,30 @@
     </header>
     <main>
       <div class="page">
+        <a name="about"></a>
       <section>
         <h2 class="blue">About</h2><div class="example">
           <p class="special"> Who you are? Why are you at the camp? <br />Why is this important to
           you?
         </p>
-        <ul class="listaboute">
+        <ul class="listabout">
           <li> <img src="https://www.vokrug.tv/pic/person/8/3/9/6/83964323198059ec81b284cdb0e8e456.jpg" 
             width="300" alt="wooman"/></li>
            <li>
-             <h3 class="blue aboute" >My strengths</h3>
+             <h3 class="blue" >My strengths</h3>
             <p class="font-size">Little overview. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
           </li>
           <li>
-            <h3 class="blue aboute">My goal's</h3>
+            <h3 class="blue">My goal's</h3>
             <p class="font-size">Little overview. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
           </li>
           <li>
-            <h3 class="blue aboute">My dream's</h3>
+            <h3 class="blue">My dream's</h3>
             <p class="font-size">Little overview It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
           </li>
         </ul>
-        <a href="" class="blue top"> To top </a>
+        <a href="#point1" class="blue top"> To top </a>
+        <hr>
       </section>
       <section>
         <h2 class="blue">Experience</h2>
@@ -73,7 +76,8 @@
         <li class="table yellow">PHP</li>
         <li class="table green"> JS</li>
       </ul>
-        <a href="" class="blue top"> To top </a>
+        <a href="#point1" class="blue top"> To top </a>
+        <hr>
       </section>
       </div>
       <section>
@@ -87,16 +91,18 @@
             <img src="https://img.championat.com/i/d/q/16263417302128762751.jpg" alt="hobby travelling" width="300" />
           </li>
         </ul>
+        <a href="#point1" class="blue top"> To top </a>
+        <hr>
       </section>
       <section>
       
         <h2 class="blue">Get In Touch</h2>
-        <p>Some information about why we need be in touch=)</p>
-        <input class="textline" type="text"
+        <p class="get-in">Some information about why we need be in touch=)</p>
+       <div class="btn-panel"> <input class="textline" type="text"
         autofocus
         placeholder ="Message"
         > 
-        <input id="email" 
+        <input class="input" id="email" 
         name="email" 
         type="email" 
         autocapitalize="off" 
@@ -104,7 +110,7 @@
         autocomplete="email " 
         autofocus
         placeholder="Email Address">
-<input id="name" 
+<input class="input" id="name" 
 name="name" 
 type="text" 
 autofocus
@@ -115,29 +121,17 @@ placeholder=" Full Name">
 type="button"
 autofocus
 > Send</button>
-
-      </section>
+       </div>
+</section>
     </main>
     <footer>
-      <svg class="icon icon-face"><use xlink:href="#icon-face"></use></svg>
       <ul class="web">
-        <svg width="1000" height="1000"> <circle cx=500 cy="500" r="250"></circle>  </svg>
-        <li><a href="" aria-label=" Facebook link" > facebook </a></li>
+        <li><a href="" aria-label="Facebook link" > facebook </a></li>
         <li><a href="" aria-label="LinkedIn link"></a></li>
         <li><a href="" aria-label="Instagram link"></a></li>
       </ul>
-      <p class="blue">&copy;Your Company Name</p>
-      <a href="" class="blue top"> To top </a>
-    </footer>
-    <img class="icon" src="img/check.svg" alt="cfd">
-    <form>
-      <input
-        type="email"
-        name="пошта для бази данних"
-        autocomplete="on"
-        autofocus
-        placeholder="text@text.text"
-      />
-    </form>
-  </body>
+      <p class="blue center">&copy;Your Company Name</p>
+      <a href="#point1" class="blue top"> To top </a>
+</footer>
+    </body>
 </html>
